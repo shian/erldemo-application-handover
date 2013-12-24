@@ -1,0 +1,12 @@
+{application, erldemo,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, [erldemo_global]},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { erldemo_app, []}},
+  {env, []}
+ ]}.
